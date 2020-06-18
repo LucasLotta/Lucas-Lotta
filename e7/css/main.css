@@ -1,11 +1,22 @@
 *{
-  box-sizing: border-box;
+  box-sizing: ;
+  border-box: ;
 }
 body{
-  margin: 0;
-  background-color: red;
+  margin: 100px;
+  background-color: blue;
   color: white;
+  font-family: 'Balsamiq Sans', cursive;
 }
-.intro {
-  font-size: 600px;
+  h1{font-family: 'Odibee Sans', cursive;}
+
+.intro1 {
+  font-size: 40px;
+}
+#signature {
+  font-style: italic;
+  font-Weight:regular;
+}
+.intro2 {
+  font-size: 25px;
 }
