@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+main{
+  width: 120vw;
+  margin: -20vw;
+}
+.pattern-1 .shape1{
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern-1 .shape2{
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern-1 .shape3{
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}

@@ -3,9 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 20px;
+}
 body{
   font-family: 'Noto Sans JP', bold;
 }
 h1{
   font-family: moret, sans-serif;
+  font-size: 100px;
+}
+h2{
+  font-family: moret, sans-serif;
+  font-size: 30px;
+}
+/* Layout Styles*/
+header {
+  width: 75vw;
+  margin:25px auto;
+  background-color: ;
+}
+main {
+  width: 75vw;
+  margin:25px auto;
+  background-color: ;
+  display: flow-root;
+}
+
+.col {
+  width: 50%;
+  background-color: ;
+  float: left;
 }
