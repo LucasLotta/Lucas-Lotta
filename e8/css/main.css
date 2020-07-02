@@ -1,12 +1,12 @@
 body{
-  margin: 0;
+  margin: 0px;
   overflow-x: hidden;
 }
 main{
-  width: 120vw;
+  width: 120VW;
   margin: -20vw;
 }
-.pattern-1 .shape1{
+.pattern-example .shape1{
   width: 100px;
   height: 100px;
   background-color: tomato;
@@ -14,7 +14,7 @@ main{
   margin: -5px;
   opacity: .75;
 }
-.pattern-1 .shape2{
+.pattern-example .shape2{
   width: 100px;
   height: 100px;
   background-color: dodgerblue;
@@ -22,11 +22,157 @@ main{
   margin: -5px;
   opacity: .75;
 }
-.pattern-1 .shape3{
+.pattern-example .shape3{
   width: 100px;
   height: 100px;
   background-color: gold;
   float: left;
   margin: -5px;
   opacity: .75;
+  /* *********** custom patterns *********** */
+  /* *********** pattern1 *********** */
 }
+.pattern-1 .shape1{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  float: left;
+  margin: 5px;
+  border-radius: 50%
+}
+.pattern-1 .shape2{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  float: left;
+  margin: 5px;
+  border-radius: 50%
+}
+.pattern-1 .shape3{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  float: left;
+  margin: 5px;
+  border-radius: 50%
+}
+  .pattern-1 .shape4{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+    margin: 5px;
+    border-radius: 50%
+}
+  /* *********** pattern2 *********** */
+  .pattern-2 .shape1{
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid #ff0303;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: left;
+    margin: 5px;
+    opacity: 100%;
+  }
+  .pattern-2 .shape2{
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid #03f2ff;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: left;
+    margin: 5px;
+    opacity: 100%;
+  }
+  /* *********** pattern3 *********** */
+  .pattern-3 .shape1{
+    width:  100px;
+    height: 100px;
+    border-top: 60px solid #ff6403;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: right;
+    margin: -50px;
+    opacity: 100%;
+  }
+  .pattern-3 .shape2{
+    width:  100px;
+    height: 100px;
+    border-top: 60px solid #03ff96;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: right;
+    margin: -50px;
+    opacity: 100%;
+  }
+  .pattern-3 .shape3{
+    width: 100px;
+    height: 100px;
+    border-top: 60px solid #8e03ff;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: right;
+    margin: -50px;
+    float: center;
+  }
+  /* *********** pattern4 *********** */
+  .pattern-4 .shape1{
+    width:  0px;
+    height: 0px;
+    border-top: 60px solid brown;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    float: left;
+    margin: -20px;
+    opacity: 75%;
+  }
+  .pattern-4 .shape2{
+    width: 100px;
+    height: 100px;
+    background-color: #03ff3a;
+    float: left;
+    border-radius: 50%;
+    margin: -20px;
+  }
+  .pattern-4 .shape3{
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    float: left;
+    margin: -5px;
+    opacity: 100%;
+    margin: -20px;
+  }
+  /* *********** pattern5 *********** */
+  .pattern-5 .shape1{
+  /* triangle */
+  width:  0px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 35px solid #ff59de;
+  float: left;
+  margin: 0px;
+  opacity: 100%;
+  }
+  .pattern-5 .shape2{
+  /* circle */
+    width: 10px;
+    height: 50px;
+    background-color: #037dff;
+    float: left;
+    border-radius: 50%;
+    margin: 0px;
+  }
+  .pattern-5 .shape3{
+  /* square */
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    float: left;
+    opacity: 100%;
+    margin: 0px;
+  }
+  /* reference */
