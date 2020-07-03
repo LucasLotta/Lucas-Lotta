@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 body{
-  margin: 0;
+  .center{
+    margin: 500px;
+    width: 500px;
+  }
 }
+/* layout1 */
 .board{
   width: 800px;
   margin: 50px auto;
@@ -17,6 +21,95 @@ body{
 .black{
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: white;
   float: left;
 }
+
+/* layout2 */
+        .column-grid{
+          width: 900px;
+          height: 50px auto;
+        }
+        .red2{
+          width: 900px;
+          height: 100px;
+          background-color: red;
+          float: left;
+        }
+        .green{
+          width: 900px;
+          height: 20px;
+          background-color: white;
+          float: left;
+        }
+        .red3{
+          width: 900px;
+          height: 30px;
+          background-color: red;
+          float: left;
+        }
+        .green2{
+          width: 900px;
+          height: 20px;
+          background-color: white;
+          float: left;
+        }
+        .red4{
+          width: 286px;
+          height: 900px;
+          background-color: red;
+          float: left;
+        }
+        .green3{
+          width: 20px;
+          height: 900px;
+          background-color: white;
+          float: left;
+        }
+
+/* layout3 */
+.blog-layout{
+  width: 1000px;
+  height: 500px auto;
+}
+.purple{
+  width: 700px;
+  height: 500px;
+  background-color: red;
+  float: left;
+}
+.blue{
+    width: 20px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.purple2{
+  width: 200px;
+  height: 300px;
+  background-color: red;
+  float: left;
+}
+.blue2{
+    width: 700px;
+    height: 300px;
+    background-color: red;
+    float: left;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* ??????? */
+main {display: flow-root;}
+.rCol,  .lCol{
+  width: 50%;
+  float: left;
