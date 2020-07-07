@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  .center{
+    margin: 500px;
+    width: 500px;
+  }
+}
+/* class */
+.board{
+  width: 100px;
+  margin: 50px auto;
+}
+.top1{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.top2{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.top3{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.top4long{
+  width: 100px;
+  height: 225px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.midlong{
+  width: 225px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.midshort{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.bottomshort1{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.bottomlong{
+  width: 225px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
+.bottomshort2{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 25px auto;
+}
