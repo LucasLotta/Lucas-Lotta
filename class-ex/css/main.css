@@ -3,66 +3,55 @@
 }
 body{
   .center{
-    margin: 500px;
-    width: 500px;
+    margin: 100px;
+    width: 100px;
   }
 }
 /* class */
 .board{
   width: 100px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
-.top1{
+.top1,.top2,.top3{
   width: 100px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
-}
-.top2{
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  margin: 25px auto;
-}
-.top3{
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  margin: 25px auto;
+  margin: 25px;
+
 }
 .top4long{
   width: 100px;
   height: 225px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }
 .midlong{
   width: 225px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }
 .midshort{
   width: 100px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }
 .bottomshort1{
   width: 100px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }
 .bottomlong{
   width: 225px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }
 .bottomshort2{
   width: 100px;
   height: 100px;
   background-color: purple;
-  margin: 25px auto;
+    margin: 25px;
 }

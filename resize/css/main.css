@@ -1,0 +1,20 @@
+body{
+  background-color: salmon;
+  margin: 0;
+}
+
+@@media screen and (max-width: 1500px) {
+  body{
+    background-color: dodgerblue;
+  }
+}
+@@media screen and (max-width: 1000px) {
+  body{
+    background-color: gold;
+  }
+}
+@@media screen and (max-width: 750px) {
+  body{
+    background-color: seagreen;
+  }
+}
