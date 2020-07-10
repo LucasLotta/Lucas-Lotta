@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 html{
   font-size: 20px;
 }
 body{
   font-family: 'Noto Sans JP', bold;
+  background-color: #0892d0;
 }
 h1{
   font-family: moret, sans-serif;
@@ -29,9 +31,28 @@ main {
   background-color: ;
   display: flow-root;
 }
-
-.col {
+.col{
   width: 50%;
-  background-color: ;
   float: left;
+  padding: 0 25px;
+}
+
+/* Responsive stylesheet */
+@media screen and (max-width: 900px){
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+}
+body {
+  background-color: #5EDD5F;
+}
+ header{
+   width: 90vw;
+}
+ main{
+   width: 90vw;
+}
+ h1{
+  font-size: 50px;
+
 }
