@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  color: #35183E;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 16px;
+}
+header, footer{
+  background-color: #551867;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 25px 100px;
+}
+h1{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+h2{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+h3{
+  color: #551867;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
