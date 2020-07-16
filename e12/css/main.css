@@ -1,0 +1,92 @@
+*{
+  box-sizing: ;
+  border-box: ;
+}
+
+.pipthepeguin{
+}
+.body{
+  width: 400px;
+  height:600px;
+  background-color: #726E6E;
+  border-radius: 50%;
+  position: absolute;
+  left:500px;
+  top: 100px;
+
+}
+.flipers{
+  width: 800px;
+  height: 100px;
+  background-color: #726E6E;
+  border-radius: 50%;
+  position: absolute;
+  left:300px;
+  top:  300px;
+
+
+}
+.tummy{
+  width: 300px;
+  height: 350px;
+  background-color: #c8b0f3;
+  border-radius: 50%;
+  position: absolute;
+  left:550px;
+  top: 350px;
+}
+.Leye{
+  width: 50px;
+  height: 50px;
+  background-color: #3f3c44;
+  border-radius: 50%;
+  position: absolute;
+  left:600px;
+  top: 175px;
+
+}
+.Reye{
+  width: 50px;
+  height: 50px;
+  background-color:  #3f3c44;
+  border-radius: 50%;
+  position: absolute;
+  left:750px;
+  top: 175px;
+}
+.beak{
+  width: 100px;
+  height: 60px;
+  background-color: #E538D1;
+  border-radius: 50%;
+  margin: 0px;
+  position: absolute;
+  left:650px;
+  top: 210px;
+}
+.Lfoot{
+  width:  0px;
+  height: 0px;
+  border-top: 100px solid transparent;
+  border-right: 60px solid transparent;
+  border-left: 80px solid transparent;
+  border-bottom: 170px solid #E538D1;
+  margin: 0px;
+  opacity: 100%;
+  position: absolute;
+  left:550px;
+  top: 530px;
+}
+.Rfoot{
+  width:  0px;
+  height: 0px;
+  border-top: 100px solid transparent;
+  border-right: 80px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 170px solid #E538D1;
+  margin: 0px;
+  opacity: 100%;
+  position: absolute;
+  left:700px;
+  top: 530px;
+}
