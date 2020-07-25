@@ -1,18 +1,20 @@
 *{
-  box-sizing: border-box;
+  box-sizing: border-box 1440px ;
 }
-body {
+body{
   background-color: white;
   color: #35183E;
   font-family: 'Saira Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   margin: 0;
 }
 header, footer{
   background-color: #551867;
   color: white;
   font-family: 'Orbitron', sans-serif;
+  /* position: fixed; */
   padding: 25px 100px;
+
 }
   .middle{
     position: absolute;
@@ -73,21 +75,299 @@ header, footer{
 }
 .logo{
   position: absolute;
-  left:500px;
-  top: 100px;
 }
 h1{
-  color: white;
+  color: #8E146D;
   font-family: 'Orbitron', sans-serif;
   font-size: 40px;
 }
 h2{
-  color: white;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 25px;
-}
-h3{
   color: #551867;
   font-family: 'Orbitron', sans-serif;
   font-size: 25px;
 }
+h3{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+h4{
+  color: white;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+h5{
+  color: #8E146D;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+h6{
+  color: #8E146D;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+/* home           */
+.velvet-velvet{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top:140px;
+  left:420px;
+}
+.tagline{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top:210px;
+  left:156px;
+}
+                  /* about           */
+                  .About-Us{
+                    text-align: center;
+                    position: absolute;
+                    z-index: 1;
+                    top:140px;
+                    left:600px;
+                  }
+                  .MS{
+                    position: absolute;
+                    z-index: 1;
+                    top:240px;
+                    left:156px;
+                  }
+                  .Member{
+                    position: absolute;
+                    z-index: 1;
+                    top:620px;
+                    left:156px;
+                  }
+                  .Hours{
+                    position: absolute;
+                    z-index: 1;
+                    top:900px;
+                    left:156px;
+                  }
+                  .Hours-top{
+                    position: absolute;
+                    z-index: 1;
+                    top:920px;
+                    left:156px;
+                  }
+                  .Hours-bottom{
+                    position: absolute;
+                    z-index: 1;
+                    top:1110px;
+                    left:156px;
+                  }
+/* Event           */
+.Events{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top:140px;
+  left:550px;
+}
+.TSS{
+  position: absolute;
+  z-index: 1;
+  top:340px;
+  left:800px;
+}
+          .TSS-date{
+            position: absolute;
+            z-index: 1;
+            top:450px;
+            left:800px;
+}
+.CC{
+  position: absolute;
+  z-index: 1;
+  top:830px;
+  left:800px;
+}
+          .CC-date{
+            position: absolute;
+            z-index: 1;
+            top:940px;
+            left:800px;
+}
+.SS{
+  position: absolute;
+  z-index: 1;
+  top:1320px;
+  left:800px;
+}
+          .SS-date{
+            position: absolute;
+            z-index: 1;
+            top:1425px;
+            left:800px;
+}
+.FSP{
+  position: absolute;
+  z-index: 1;
+  top:1810px;
+  left:800px;
+}
+          .FSP-date{
+            position: absolute;
+            z-index: 1;
+            top:1917px;
+            left:800px;
+}
+/* shop           */
+.shop{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top:140px;
+  left:620px;
+}
+.book{
+  position: absolute;
+  z-index: 1;
+  top:550px;
+  left:170px;
+}
+.model{
+  position: absolute;
+  z-index: 1;
+  top:550px;
+  left:590px;
+}
+.lith{
+  position: absolute;
+  z-index: 1;
+  top:550px;
+  left:1070px;
+}
+.software{
+  position: absolute;
+  z-index: 1;
+  top:985px;
+  left:197px;
+}
+.graphic{
+  position: absolute;
+  z-index: 1;
+  top:985px;
+  left:583px;
+}
+.poster{
+  position: absolute;
+  z-index: 1;
+  top:985px;
+  left:1098px;
+}
+.kit{
+  position: absolute;
+  z-index: 1;
+  top:1415px;
+  left:170px;
+}
+.game{
+  position: absolute;
+  z-index: 1;
+  top:1415px;
+  left:588px;
+}
+.tshirt{
+  position: absolute;
+  z-index: 1;
+  top:1415px;
+  left:1100px;
+}
+.stamp{
+  position: absolute;
+  z-index: 1;
+  top:1845px;
+  left:160px;
+}
+.tool{
+  position: absolute;
+  z-index: 1;
+  top:1845px;
+  left:607px;
+}
+.printer{
+  position: absolute;
+  z-index: 1;
+  top:1845px;
+  left:1090px;
+}
+/* price */
+                .cash1{
+                  position: absolute;
+                  z-index: 1;
+                  top:570px;
+                  left:270px;
+                }
+                .cash2{
+                  position: absolute;
+                  z-index: 1;
+                  top:570px;
+                  left:705px;
+                }
+                .cash3{
+                  position: absolute;
+                  z-index: 1;
+                  top:570px;
+                  left:1140px;
+                }
+                .cash4{
+                  position: absolute;
+                  z-index: 1;
+                  top:1009px;
+                  left:270px;
+                }
+                .cash5{
+                  position: absolute;
+                  z-index: 1;
+                  top:1009px;
+                  left:706px;
+                }
+                .cash6{
+                  position: absolute;
+                  z-index: 1;
+                  top:1009px;
+                  left:1140px;
+                }
+                .cash7{
+                  position: absolute;
+                  z-index: 1;
+                  top:1440px;
+                  left:270px;
+                }
+                .cash8{
+                  position: absolute;
+                  z-index: 1;
+                  top:1440px;
+                  left:700px;
+                }
+                .cash9{
+                  position: absolute;
+                  z-index: 1;
+                  top:1440px;
+                  left:1140px;
+                }
+                .cash10{
+                  position: absolute;
+                  z-index: 1;
+                  top:1870px;
+                  left:270px;
+                }
+                .cash11{
+                  position: absolute;
+                  z-index: 1;
+                  top:1870px;
+                  left:710px;
+                }
+                .cash12{
+                  position: absolute;
+                  z-index: 1;
+                  top:1870px;
+                  left:1140px;
+                }

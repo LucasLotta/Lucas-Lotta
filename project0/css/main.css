@@ -1,0 +1,237 @@
+*{
+  box-sizing: border-box 1440px ;
+}
+body{
+  background-color: white;
+  color: #35183E;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+header, footer{
+  background-color: #551867;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  /* position: fixed; */
+  padding: 25px 100px;
+}
+  .middle{
+    position: absolute;
+    top: 80px;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    float: left;
+    display: inline-block;
+  }
+  .btn{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    display: inline;
+  }
+  .btn:hover{
+    color: #551867;
+  }
+  .btn::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  }
+  .btn1::before{
+    transform: scaleX(0);
+  }
+  .btn1:hover::before{
+    transform: scaleX(1);
+  }
+  .btn2::before{
+    transform: scaleX(0);
+  }
+  .btn2:hover::before{
+    transform: scaleX(1);
+  }
+  .btn3::before{
+      transform: scaleX(0);
+  }
+  .btn3:hover::before{
+      transform: scaleX(1);
+  }
+.logo{
+  position: absolute;
+}
+h1{
+  color: #8E146D;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+h2{
+  color: #551867;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+h3{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+h4{
+  color: white;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+h5{
+  color: #8E146D;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+h6{
+  color: #8E146D;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+.velvet-velvet{
+  /* text-align: center; */
+  position: absolute;
+  z-index: 1;
+  top:500px;
+  left:100px;
+}
+.tagline{
+  /* text-align: center; */
+  position: absolute;
+  z-index: 1;
+  top:1000px;
+  left:1000px;
+}
+                  /* about           */
+                  .About-Us{
+                    z-index: 1;
+                    top: 500px
+                    left:80px;
+
+                  }
+                  .MS{
+
+                  }
+                  .Member{
+
+                  }
+                  .Hours{
+
+}
+/* Event           */
+.Events{
+
+}
+.TSS{
+
+}
+.CC{
+
+}
+.SS{
+
+}
+.FSP{
+
+}
+/* shop           */
+.book{
+
+}
+.model{
+
+}
+.lith{
+
+}
+.software{
+
+}
+.graphic{
+
+}
+.poster{
+
+}
+.kit{
+
+}
+.game{
+
+}
+.tshirt{
+
+}
+.stamp{
+
+}
+.tool{
+
+}
+.printer{
+
+}
+/* price */
+.cash1{
+
+}
+.cash2{
+
+}
+.cash3{
+
+}
+.cash4{
+
+}
+.cash5{
+
+}
+.cash6{
+
+}
+.cash7{
+
+}
+.cash8{
+
+}
+.cash9{
+
+}
+.cash10{
+
+}
+.cash11{
+
+}
+.cash12{
+
+}
+
+
+
+.pip{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top:500px;
+  left:100px;
